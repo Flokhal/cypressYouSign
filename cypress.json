@@ -2,9 +2,15 @@
 
     {
         "testFiles": "**/*.feature",
-
         "viewportWidth": 5000,
-    "viewportHeight": 3500
+        "viewportHeight": 3500,
+        "reporter": "mochawesome",
+        "reporterOptions": {
+            "reportDir": "cypress/reports",
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
       }
       
       
